@@ -3,7 +3,7 @@ import axios from "axios";
 import { FaTrash, FaEdit } from "react-icons/fa";
 import { toast } from "react-toastify";
 
-import { Table, Thead, Tbody, Tr, Th, Td } from "./styles";
+import { Table, Thead, Tbody, Tr, Th, Td } from "./style";
 
 const Grid = ({ users, setUsers, setOnEdit }) => {
   const handleEdit = (item) => {
