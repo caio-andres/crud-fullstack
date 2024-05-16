@@ -2,6 +2,8 @@ import axios from "axios";
 import React, { useEffect, useRef } from "react";
 import { toast } from "react-toastify";
 
+import { FormContainer, Input, InputArea, Button, Label } from "./style";
+
 const Form = ({ getUsers, onEdit, setOnEdit }) => {
   const ref = useRef();
 
