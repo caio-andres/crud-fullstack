@@ -5,7 +5,7 @@ const Global = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Arimo';
   }
   
   body {
@@ -13,7 +13,7 @@ const Global = createGlobalStyle`
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: #f2f2f2;
+    background-image: linear-gradient(to right, #1434A4, #6082B6);
   }
 `;
 
