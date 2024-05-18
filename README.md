@@ -16,7 +16,7 @@
 `HOST=localhost`\
 `USER=(username)`\
 `PASSWORD=(password)`\
-`DATABASE=(database name)`\
+`DATABASE=(database name)`
 
 *Back the second terminal again*\
 `npm start`
