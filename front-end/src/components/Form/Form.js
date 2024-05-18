@@ -1,10 +1,21 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { toast } from "react-toastify";
 
 import { FormContainer, InputArea, Input, Label, Button } from "./style.js";
 
 const Form = ({ onEdit }) => {
   const ref = useRef();
+
+  useEffect(() => {
+    if (onEdit) {
+      const user = ref.current;
+
+      user.name.value = onEdit.name;
+      user.email.value = onEdit.email;
+      user.phone.value = onEdit.phone;
+      user.birth_date.value = onEdit.birth_date;
+    }
+  }, [onEdit]);
 
   return (
     <FormContainer ref={ref}>
