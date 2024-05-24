@@ -25,6 +25,12 @@
 
 # Getting Started
 
+### `Clone repository:`
+
+```powershell
+git clone https://github.com/caio-andres/crud-fullstack.git
+```
+
 ### `Run Front-end:`
 
 #### _Open the terminal_
